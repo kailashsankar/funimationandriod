@@ -1,0 +1,415 @@
+2019-01-17 10:18:32:309 [Appium] Welcome to Appium v1.10.0
+2019-01-17 10:18:32:311 [Appium] Non-default server args:
+2019-01-17 10:18:32:312 [Appium]   logFile: E:\automation Frameworks\Funimation_Automation\.\AppiumServerlog.txt
+2019-01-17 10:18:32:375 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2019-01-17 10:18:32:671 [HTTP] --> GET /wd/hub/status
+2019-01-17 10:18:32:673 [HTTP] {}
+2019-01-17 10:18:32:680 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-01-17 10:18:32:684 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.10.0"}}
+2019-01-17 10:18:32:696 [HTTP] <-- GET /wd/hub/status 200 20 ms - 68
+2019-01-17 10:18:32:697 [HTTP] 
+2019-01-17 10:18:34:014 [HTTP] --> POST /wd/hub/session
+2019-01-17 10:18:34:014 [HTTP] {"desiredCapabilities":{"app":"E:\\automation Frameworks\\cucumber-java-selenium\\Funimation_Automation\\src\\main\\java\\App\\FunimationNow.apk","appPackage":"com.Funimation.FunimationNow","appActivity":"com.funimation.ui.splash.SplashActivity","appium-version":"10.1","platformVersion":"6.0.1","browserName":"","autoGrantPermissions":"true","platformName":"Android","udid":"420038a5d34e3387","deviceName":"Galaxy On5"}}
+2019-01-17 10:18:34:015 [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"E:\\automation Frameworks\\cucumber-java-selenium\\Funimation_Automation\\src\\main\\java\\App\\FunimationNow.apk","appPackage":"com.Funimation.FunimationNow","appActivity":"com.funimation.ui.splash.SplashActivity","appium-version":"10.1","platformVersion":"6.0.1","browserName":"","autoGrantPermissions":"true","platformName":"Android","udid":"420038a5d34e3387","deviceName":"Galaxy On5"},null,null]
+2019-01-17 10:18:34:015 [BaseDriver] Event 'newSessionRequested' logged at 1547720314015 (02:18:34 GMT-0800 (Pacific Standard Time))
+2019-01-17 10:18:34:018 [Appium] Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-01-17 10:18:34:019 [Appium] Creating new AndroidDriver (v4.8.0) session
+2019-01-17 10:18:34:019 [Appium] Capabilities:
+2019-01-17 10:18:34:019 [Appium]   app: E:\automation Frameworks\cucumber-java-selenium\Funimation_Automation\src\main\java\App\FunimationNow.apk
+2019-01-17 10:18:34:019 [Appium]   appPackage: com.Funimation.FunimationNow
+2019-01-17 10:18:34:019 [Appium]   appActivity: com.funimation.ui.splash.SplashActivity
+2019-01-17 10:18:34:019 [Appium]   appium-version: 10.1
+2019-01-17 10:18:34:020 [Appium]   platformVersion: 6.0.1
+2019-01-17 10:18:34:020 [Appium]   browserName: 
+2019-01-17 10:18:34:020 [Appium]   autoGrantPermissions: true
+2019-01-17 10:18:34:020 [Appium]   platformName: Android
+2019-01-17 10:18:34:020 [Appium]   udid: 420038a5d34e3387
+2019-01-17 10:18:34:020 [Appium]   deviceName: Galaxy On5
+2019-01-17 10:18:34:023 [BaseDriver] Creating session with MJSONWP desired capabilities: {"app":"E:\\automation Fram...
+2019-01-17 10:18:34:024 [BaseDriver] Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
+2019-01-17 10:18:34:028 [BaseDriver] The following capabilities were provided, but are not recognized by appium: appium-version.
+2019-01-17 10:18:34:029 [BaseDriver] Session created with session id: e5647d1f-f39b-41c4-b466-5536cb0c8d92
+2019-01-17 10:18:34:153 [AndroidDriver] Java version is: 1.8.0_191
+2019-01-17 10:18:34:155 [ADB] Checking whether adb is present
+2019-01-17 10:18:34:160 [ADB] Found 1 'build-tools' folders under 'C:\Users\windows\AppData\Local\Android\Sdk' (newest first):
+2019-01-17 10:18:34:160 [ADB]     C:/Users/windows/AppData/Local/Android/Sdk/build-tools/28.0.3
+2019-01-17 10:18:34:161 [ADB] Using adb.exe from C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe
+2019-01-17 10:18:34:161 [AndroidDriver] Retrieving device list
+2019-01-17 10:18:34:162 [ADB] Trying to find a connected android device
+2019-01-17 10:18:34:162 [ADB] Getting connected devices...
+2019-01-17 10:18:34:196 [ADB] 1 device(s) connected
+2019-01-17 10:18:34:197 [AndroidDriver] Using device: 420038a5d34e3387
+2019-01-17 10:18:34:197 [ADB] Setting device id to 420038a5d34e3387
+2019-01-17 10:18:34:199 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell getprop ro.build.version.sdk'
+2019-01-17 10:18:34:298 [ADB] Current device property 'ro.build.version.sdk': 23
+2019-01-17 10:18:34:299 [ADB] Device API level: 23
+2019-01-17 10:18:34:302 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-01-17 10:18:34:317 [BaseDriver] Using local app 'E:\automation Frameworks\cucumber-java-selenium\Funimation_Automation\src\main\java\App\FunimationNow.apk'
+2019-01-17 10:18:34:326 [AndroidDriver] Checking whether app is actually present
+2019-01-17 10:18:34:328 [AndroidDriver] Starting Android session
+2019-01-17 10:18:34:330 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 wait-for-device'
+2019-01-17 10:18:34:390 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell echo ping'
+2019-01-17 10:18:34:460 [AndroidDriver] Pushing settings apk to device...
+2019-01-17 10:18:34:462 [ADB] Getting install status for io.appium.settings
+2019-01-17 10:18:34:463 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package io.appium.settings'
+2019-01-17 10:18:34:575 [ADB] 'io.appium.settings' is installed
+2019-01-17 10:18:34:575 [ADB] Getting package info for 'io.appium.settings'
+2019-01-17 10:18:34:576 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package io.appium.settings'
+2019-01-17 10:18:34:680 [ADB] Checking whether aapt is present
+2019-01-17 10:18:34:684 [ADB] Using aapt.exe from C:\Users\windows\AppData\Local\Android\Sdk\build-tools\28.0.3\aapt.exe
+2019-01-17 10:18:34:729 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.11.0' >= '2.11.0')
+2019-01-17 10:18:34:731 [ADB] There is no need to install/upgrade 'C:\Users\windows\AppData\Local\Programs\Appium\resources\app\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2019-01-17 10:18:34:733 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell ps'
+2019-01-17 10:18:35:017 [ADB] Device API level: 23
+2019-01-17 10:18:35:018 [AndroidDriver] Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+2019-01-17 10:18:35:019 [ADB] Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+2019-01-17 10:18:35:020 [ADB] Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+2019-01-17 10:18:35:021 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE \; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION \; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION \;'
+2019-01-17 10:18:39:927 [ADB] Device API level: 23
+2019-01-17 10:18:39:929 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-01-17 10:18:42:236 [ADB] Device API level: 23
+2019-01-17 10:18:42:236 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell appops set io.appium.settings android\:mock_location allow'
+2019-01-17 10:18:44:200 [Logcat] Starting logcat capture
+2019-01-17 10:18:44:277 [ADB] Getting device platform version
+2019-01-17 10:18:44:279 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell getprop ro.build.version.release'
+2019-01-17 10:18:44:424 [ADB] Current device property 'ro.build.version.release': 6.0.1
+2019-01-17 10:18:44:425 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell wm size'
+2019-01-17 10:18:46:700 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell getprop ro.product.model'
+2019-01-17 10:18:46:839 [ADB] Current device property 'ro.product.model': SM-G550FY
+2019-01-17 10:18:46:840 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell getprop ro.product.manufacturer'
+2019-01-17 10:18:46:961 [ADB] Current device property 'ro.product.manufacturer': samsung
+2019-01-17 10:18:46:962 [ADB] Getting install status for com.Funimation.FunimationNow
+2019-01-17 10:18:46:963 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package com.Funimation.FunimationNow'
+2019-01-17 10:18:47:095 [ADB] 'com.Funimation.FunimationNow' is installed
+2019-01-17 10:18:47:095 [ADB] Getting install status for com.Funimation.FunimationNow
+2019-01-17 10:18:47:096 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package com.Funimation.FunimationNow'
+2019-01-17 10:18:47:237 [ADB] 'com.Funimation.FunimationNow' is installed
+2019-01-17 10:18:47:238 [ADB] Getting package info for 'com.Funimation.FunimationNow'
+2019-01-17 10:18:47:239 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package com.Funimation.FunimationNow'
+2019-01-17 10:18:47:466 [ADB] The version code of the installed 'com.Funimation.FunimationNow' is greater than the application version code (741 > 736)
+2019-01-17 10:18:47:466 [ADB] There is no need to install/upgrade 'E:\automation Frameworks\cucumber-java-selenium\Funimation_Automation\src\main\java\App\FunimationNow.apk'
+2019-01-17 10:18:47:467 [AndroidDriver] Performing fast reset on 'com.Funimation.FunimationNow'
+2019-01-17 10:18:47:468 [ADB] Getting install status for com.Funimation.FunimationNow
+2019-01-17 10:18:47:468 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package com.Funimation.FunimationNow'
+2019-01-17 10:18:47:610 [ADB] 'com.Funimation.FunimationNow' is installed
+2019-01-17 10:18:47:612 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell am force-stop com.Funimation.FunimationNow'
+2019-01-17 10:18:49:587 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell pm clear com.Funimation.FunimationNow'
+2019-01-17 10:18:51:503 [ADB] Device API level: 23
+2019-01-17 10:18:51:505 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package com.Funimation.FunimationNow'
+2019-01-17 10:18:51:679 [ADB] Retrieving requested permissions
+2019-01-17 10:18:51:684 [ADB] Retrieved 20 permission(s) from ["requested"] group(s)
+2019-01-17 10:18:51:685 [ADB] Retrieving granted permissions
+2019-01-17 10:18:51:687 [ADB] Retrieved 6 permission(s) from ["install","runtime"] group(s)
+2019-01-17 10:18:51:688 [ADB] Granting permissions ["android.permission.READ_PHONE_STATE","android.permission.READ_EXTERNAL_STORAGE","android.permission.WRITE_EXTERNAL_STORAGE","android.permission.ACCESS_COARSE_LOCATION","android.permission.READ_PHONE_STATE","android.permission.READ_EXTERNAL_STORAGE","android.permission.WRITE_EXTERNAL_STORAGE","android.permission.ACCESS_COARSE_LOCATION"] to 'com.Funimation.FunimationNow'
+2019-01-17 10:18:51:689 [ADB] Got the following command chunks to execute: [["pm","grant","com.Funimation.FunimationNow","android.permission.READ_PHONE_STATE",";","pm","grant","com.Funimation.FunimationNow","android.permission.READ_EXTERNAL_STORAGE",";","pm","grant","com.Funimation.FunimationNow","android.permission.WRITE_EXTERNAL_STORAGE",";","pm","grant","com.Funimation.FunimationNow","android.permission.ACCESS_COARSE_LOCATION",";","pm","grant","com.Funimation.FunimationNow","android.permission.READ_PHONE_STATE",";","pm","grant","com.Funimation.FunimationNow","android.permission.READ_EXTERNAL_STORAGE",";","pm","grant","com.Funimation.FunimationNow","android.permission.WRITE_EXTERNAL_STORAGE",";","pm","grant","com.Funimation.FunimationNow","android.permission.ACCESS_COARSE_LOCATION",";"]]
+2019-01-17 10:18:51:690 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell pm grant com.Funimation.FunimationNow android.permission.READ_PHONE_STATE \; pm grant com.Funimation.FunimationNow android.permission.READ_EXTERNAL_STORAGE \; pm grant com.Funimation.FunimationNow android.permission.WRITE_EXTERNAL_STORAGE \; pm grant com.Funimation.FunimationNow android.permission.ACCESS_COARSE_LOCATION \; pm grant com.Funimation.FunimationNow android.permission.READ_PHONE_STATE \; pm grant com.Funimation.FunimationNow android.permission.READ_EXTERNAL_STORAGE \; pm grant com.Funimation.FunimationNow android.permission.WRITE_EXTERNAL_STORAGE \; pm grant com.Funimation.FunimationNow android.permission.ACCESS_COARSE_LOCATION \;'
+2019-01-17 10:19:04:990 [AndroidDriver] Performed fast reset on the installed 'com.Funimation.FunimationNow' application (stop and clear)
+2019-01-17 10:19:04:994 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell rm -rf /data/local/tmp/strings.json'
+2019-01-17 10:19:05:157 [AndroidDriver] Extracting strings from apk
+2019-01-17 10:19:05:158 [AndroidDriver] E:\automation Frameworks\cucumber-java-selenium\Funimation_Automation\src\main\java\App\FunimationNow.apk
+2019-01-17 10:19:05:159 [AndroidDriver] null
+2019-01-17 10:19:05:160 [AndroidDriver] C:\Users\windows\AppData\Local\Temp\com.Funimation.FunimationNow
+2019-01-17 10:19:05:163 [ADB] Extracting strings from for language: default
+2019-01-17 10:19:05:620 [ADB] Successfully extracted 567 strings from 'E:\automation Frameworks\cucumber-java-selenium\Funimation_Automation\src\main\java\App\FunimationNow.apk' resources for '(default)' configuration
+2019-01-17 10:19:05:644 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 push C\:\\Users\\windows\\AppData\\Local\\Temp\\com.Funimation.FunimationNow\\strings.json /data/local/tmp'
+2019-01-17 10:19:05:711 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-01-17 10:19:05:712 [ADB] Forwarding system: 4724 to device: 4724
+2019-01-17 10:19:05:712 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 forward tcp\:4724 tcp\:4724'
+2019-01-17 10:19:05:741 [UiAutomator] Starting UiAutomator
+2019-01-17 10:19:05:742 [UiAutomator] Moving to state 'starting'
+2019-01-17 10:19:05:742 [UiAutomator] Parsing uiautomator jar
+2019-01-17 10:19:05:742 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-01-17 10:19:05:743 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 push C\:\\Users\\windows\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-01-17 10:19:05:797 [ADB] Attempting to kill all uiautomator processes
+2019-01-17 10:19:05:797 [ADB] Getting all processes with uiautomator
+2019-01-17 10:19:05:797 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell ps'
+2019-01-17 10:19:06:006 [ADB] No 'uiautomator' process has been found
+2019-01-17 10:19:06:007 [UiAutomator] Starting UIAutomator
+2019-01-17 10:19:06:007 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","420038a5d34e3387","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.Funimation.FunimationNow","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-01-17 10:19:07:827 [UiAutomator] Moving to state 'online'
+2019-01-17 10:19:07:835 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2019-01-17 10:19:07:838 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-01-17 10:19:07:843 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-01-17 10:19:07:846 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys window'
+2019-01-17 10:19:07:857 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-01-17 10:19:08:029 [AndroidDriver] Screen already unlocked, doing nothing
+2019-01-17 10:19:08:031 [ADB] Device API level: 23
+2019-01-17 10:19:08:032 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell am start -W -n com.Funimation.FunimationNow/com.funimation.ui.splash.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-01-17 10:19:14:465 [Appium] New AndroidDriver session created successfully, session e5647d1f-f39b-41c4-b466-5536cb0c8d92 added to master session list
+2019-01-17 10:19:14:468 [BaseDriver] Event 'newSessionStarted' logged at 1547720354467 (02:19:14 GMT-0800 (Pacific Standard Time))
+2019-01-17 10:19:14:471 [MJSONWP (e5647d1f)] Cached the protocol value 'MJSONWP' for the new session e5647d1f-f39b-41c4-b466-5536cb0c8d92
+2019-01-17 10:19:14:473 [MJSONWP (e5647d1f)] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"E:\\automation Frameworks\\cucumber-java-selenium\\Funimation_Automation\\src\\main\\java\\App\\FunimationNow.apk","appPackage":"com.Funimation.FunimationNow","appActivity":"com.funimation.ui.splash.SplashActivity","appium-version":"10.1","platformVersion":"6.0.1","browserName":"","autoGrantPermissions":true,"platformName":"Android","udid":"420038a5d34e3387","deviceName":"Galaxy On5"},"app":"E:\\automation Frameworks\\cucumber-java-selenium\\Funimation_Automation\\src\\main\\java\\App\\FunimationNow.apk","appPackage":"com.Funimation.FunimationNow","appActivity":"com.funimation.ui.splash.SplashActivity","appium-version":"10.1","platformVersion":"6.0.1","browserName":"","autoGrantPermissions":true,"platformName":"Android","udid":"420038a5d34e3387","deviceName":"420038a5d34e3387","deviceUDID":"420038...
+2019-01-17 10:19:14:479 [HTTP] <-- POST /wd/hub/session 200 40463 ms - 1192
+2019-01-17 10:19:14:481 [HTTP] 
+2019-01-17 10:19:14:544 [HTTP] --> POST /wd/hub/session
+2019-01-17 10:19:14:545 [HTTP] {"desiredCapabilities":{"app":"E:\\automation Frameworks\\cucumber-java-selenium\\Funimation_Automation\\src\\main\\java\\App\\FunimationNow.apk","appPackage":"com.Funimation.FunimationNow","appActivity":"com.funimation.ui.splash.SplashActivity","appium-version":"10.1","platformVersion":"6.0.1","browserName":"","autoGrantPermissions":"true","platformName":"Android","udid":"420038a5d34e3387","deviceName":"Galaxy On5"}}
+2019-01-17 10:19:14:545 [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"E:\\automation Frameworks\\cucumber-java-selenium\\Funimation_Automation\\src\\main\\java\\App\\FunimationNow.apk","appPackage":"com.Funimation.FunimationNow","appActivity":"com.funimation.ui.splash.SplashActivity","appium-version":"10.1","platformVersion":"6.0.1","browserName":"","autoGrantPermissions":"true","platformName":"Android","udid":"420038a5d34e3387","deviceName":"Galaxy On5"},null,null]
+2019-01-17 10:19:14:546 [BaseDriver] Event 'newSessionRequested' logged at 1547720354546 (02:19:14 GMT-0800 (Pacific Standard Time))
+2019-01-17 10:19:14:547 [Appium] Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-01-17 10:19:14:547 [Appium] Creating new AndroidDriver (v4.8.0) session
+2019-01-17 10:19:14:548 [Appium] Capabilities:
+2019-01-17 10:19:14:548 [Appium]   app: E:\automation Frameworks\cucumber-java-selenium\Funimation_Automation\src\main\java\App\FunimationNow.apk
+2019-01-17 10:19:14:549 [Appium]   appPackage: com.Funimation.FunimationNow
+2019-01-17 10:19:14:549 [Appium]   appActivity: com.funimation.ui.splash.SplashActivity
+2019-01-17 10:19:14:550 [Appium]   appium-version: 10.1
+2019-01-17 10:19:14:550 [Appium]   platformVersion: 6.0.1
+2019-01-17 10:19:14:551 [Appium]   browserName: 
+2019-01-17 10:19:14:551 [Appium]   autoGrantPermissions: true
+2019-01-17 10:19:14:552 [Appium]   platformName: Android
+2019-01-17 10:19:14:552 [Appium]   udid: 420038a5d34e3387
+2019-01-17 10:19:14:553 [Appium]   deviceName: Galaxy On5
+2019-01-17 10:19:14:556 [BaseDriver] Creating session with MJSONWP desired capabilities: {"app":"E:\\automation Fram...
+2019-01-17 10:19:14:557 [BaseDriver] Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
+2019-01-17 10:19:14:562 [BaseDriver] The following capabilities were provided, but are not recognized by appium: appium-version.
+2019-01-17 10:19:14:563 [BaseDriver] Session created with session id: a2e9faa6-4fe4-48fd-b82f-b53020cf73a5
+2019-01-17 10:19:14:691 [AndroidDriver] Java version is: 1.8.0_191
+2019-01-17 10:19:14:691 [AndroidDriver] Retrieving device list
+2019-01-17 10:19:14:692 [ADB] Trying to find a connected android device
+2019-01-17 10:19:14:692 [ADB] Getting connected devices...
+2019-01-17 10:19:14:724 [ADB] 1 device(s) connected
+2019-01-17 10:19:14:724 [AndroidDriver] Using device: 420038a5d34e3387
+2019-01-17 10:19:14:726 [ADB] Setting device id to 420038a5d34e3387
+2019-01-17 10:19:14:726 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell getprop ro.build.version.sdk'
+2019-01-17 10:19:14:904 [ADB] Current device property 'ro.build.version.sdk': 23
+2019-01-17 10:19:14:905 [ADB] Device API level: 23
+2019-01-17 10:19:14:905 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-01-17 10:19:14:908 [BaseDriver] Using local app 'E:\automation Frameworks\cucumber-java-selenium\Funimation_Automation\src\main\java\App\FunimationNow.apk'
+2019-01-17 10:19:14:915 [AndroidDriver] Checking whether app is actually present
+2019-01-17 10:19:14:918 [AndroidDriver] Starting Android session
+2019-01-17 10:19:14:921 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 wait-for-device'
+2019-01-17 10:19:14:986 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell echo ping'
+2019-01-17 10:19:15:076 [AndroidDriver] Pushing settings apk to device...
+2019-01-17 10:19:15:077 [ADB] Getting install status for io.appium.settings
+2019-01-17 10:19:15:078 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package io.appium.settings'
+2019-01-17 10:19:15:264 [ADB] 'io.appium.settings' is installed
+2019-01-17 10:19:15:265 [ADB] Getting package info for 'io.appium.settings'
+2019-01-17 10:19:15:266 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package io.appium.settings'
+2019-01-17 10:19:15:529 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.11.0' >= '2.11.0')
+2019-01-17 10:19:15:531 [ADB] There is no need to install/upgrade 'C:\Users\windows\AppData\Local\Programs\Appium\resources\app\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2019-01-17 10:19:15:532 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell ps'
+2019-01-17 10:19:15:869 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-01-17 10:19:15:870 [ADB] Device API level: 23
+2019-01-17 10:19:15:871 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell appops set io.appium.settings android\:mock_location allow'
+2019-01-17 10:19:18:537 [Logcat] Starting logcat capture
+2019-01-17 10:19:18:687 [ADB] Getting device platform version
+2019-01-17 10:19:18:689 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell getprop ro.build.version.release'
+2019-01-17 10:19:18:886 [ADB] Current device property 'ro.build.version.release': 6.0.1
+2019-01-17 10:19:18:888 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell wm size'
+2019-01-17 10:19:21:555 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell getprop ro.product.model'
+2019-01-17 10:19:21:654 [ADB] Current device property 'ro.product.model': SM-G550FY
+2019-01-17 10:19:21:656 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell getprop ro.product.manufacturer'
+2019-01-17 10:19:21:755 [ADB] Current device property 'ro.product.manufacturer': samsung
+2019-01-17 10:19:21:755 [ADB] Getting install status for com.Funimation.FunimationNow
+2019-01-17 10:19:21:756 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package com.Funimation.FunimationNow'
+2019-01-17 10:19:21:884 [ADB] 'com.Funimation.FunimationNow' is installed
+2019-01-17 10:19:21:885 [ADB] Getting install status for com.Funimation.FunimationNow
+2019-01-17 10:19:21:885 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package com.Funimation.FunimationNow'
+2019-01-17 10:19:22:014 [ADB] 'com.Funimation.FunimationNow' is installed
+2019-01-17 10:19:22:014 [ADB] Getting package info for 'com.Funimation.FunimationNow'
+2019-01-17 10:19:22:014 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package com.Funimation.FunimationNow'
+2019-01-17 10:19:22:223 [ADB] The version code of the installed 'com.Funimation.FunimationNow' is greater than the application version code (741 > 736)
+2019-01-17 10:19:22:223 [ADB] There is no need to install/upgrade 'E:\automation Frameworks\cucumber-java-selenium\Funimation_Automation\src\main\java\App\FunimationNow.apk'
+2019-01-17 10:19:22:224 [AndroidDriver] Performing fast reset on 'com.Funimation.FunimationNow'
+2019-01-17 10:19:22:224 [ADB] Getting install status for com.Funimation.FunimationNow
+2019-01-17 10:19:22:224 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package com.Funimation.FunimationNow'
+2019-01-17 10:19:22:438 [ADB] 'com.Funimation.FunimationNow' is installed
+2019-01-17 10:19:22:439 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell am force-stop com.Funimation.FunimationNow'
+2019-01-17 10:19:25:027 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell pm clear com.Funimation.FunimationNow'
+2019-01-17 10:19:26:996 [ADB] Device API level: 23
+2019-01-17 10:19:26:997 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys package com.Funimation.FunimationNow'
+2019-01-17 10:19:27:155 [ADB] Retrieving requested permissions
+2019-01-17 10:19:27:157 [ADB] Retrieved 20 permission(s) from ["requested"] group(s)
+2019-01-17 10:19:27:157 [ADB] Retrieving granted permissions
+2019-01-17 10:19:27:159 [ADB] Retrieved 6 permission(s) from ["install","runtime"] group(s)
+2019-01-17 10:19:27:160 [ADB] Granting permissions ["android.permission.READ_PHONE_STATE","android.permission.READ_EXTERNAL_STORAGE","android.permission.WRITE_EXTERNAL_STORAGE","android.permission.ACCESS_COARSE_LOCATION","android.permission.READ_PHONE_STATE","android.permission.READ_EXTERNAL_STORAGE","android.permission.WRITE_EXTERNAL_STORAGE","android.permission.ACCESS_COARSE_LOCATION"] to 'com.Funimation.FunimationNow'
+2019-01-17 10:19:27:161 [ADB] Got the following command chunks to execute: [["pm","grant","com.Funimation.FunimationNow","android.permission.READ_PHONE_STATE",";","pm","grant","com.Funimation.FunimationNow","android.permission.READ_EXTERNAL_STORAGE",";","pm","grant","com.Funimation.FunimationNow","android.permission.WRITE_EXTERNAL_STORAGE",";","pm","grant","com.Funimation.FunimationNow","android.permission.ACCESS_COARSE_LOCATION",";","pm","grant","com.Funimation.FunimationNow","android.permission.READ_PHONE_STATE",";","pm","grant","com.Funimation.FunimationNow","android.permission.READ_EXTERNAL_STORAGE",";","pm","grant","com.Funimation.FunimationNow","android.permission.WRITE_EXTERNAL_STORAGE",";","pm","grant","com.Funimation.FunimationNow","android.permission.ACCESS_COARSE_LOCATION",";"]]
+2019-01-17 10:19:27:162 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell pm grant com.Funimation.FunimationNow android.permission.READ_PHONE_STATE \; pm grant com.Funimation.FunimationNow android.permission.READ_EXTERNAL_STORAGE \; pm grant com.Funimation.FunimationNow android.permission.WRITE_EXTERNAL_STORAGE \; pm grant com.Funimation.FunimationNow android.permission.ACCESS_COARSE_LOCATION \; pm grant com.Funimation.FunimationNow android.permission.READ_PHONE_STATE \; pm grant com.Funimation.FunimationNow android.permission.READ_EXTERNAL_STORAGE \; pm grant com.Funimation.FunimationNow android.permission.WRITE_EXTERNAL_STORAGE \; pm grant com.Funimation.FunimationNow android.permission.ACCESS_COARSE_LOCATION \;'
+2019-01-17 10:19:41:441 [AndroidDriver] Performed fast reset on the installed 'com.Funimation.FunimationNow' application (stop and clear)
+2019-01-17 10:19:41:442 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell rm -rf /data/local/tmp/strings.json'
+2019-01-17 10:19:41:609 [AndroidDriver] Extracting strings from apk
+2019-01-17 10:19:41:609 [AndroidDriver] E:\automation Frameworks\cucumber-java-selenium\Funimation_Automation\src\main\java\App\FunimationNow.apk
+2019-01-17 10:19:41:610 [AndroidDriver] null
+2019-01-17 10:19:41:611 [AndroidDriver] C:\Users\windows\AppData\Local\Temp\com.Funimation.FunimationNow
+2019-01-17 10:19:41:612 [ADB] Extracting strings from for language: default
+2019-01-17 10:19:42:113 [ADB] Successfully extracted 567 strings from 'E:\automation Frameworks\cucumber-java-selenium\Funimation_Automation\src\main\java\App\FunimationNow.apk' resources for '(default)' configuration
+2019-01-17 10:19:42:120 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 push C\:\\Users\\windows\\AppData\\Local\\Temp\\com.Funimation.FunimationNow\\strings.json /data/local/tmp'
+2019-01-17 10:19:42:182 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-01-17 10:19:42:182 [ADB] Forwarding system: 4724 to device: 4724
+2019-01-17 10:19:42:182 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 forward tcp\:4724 tcp\:4724'
+2019-01-17 10:19:42:214 [UiAutomator] Starting UiAutomator
+2019-01-17 10:19:42:215 [UiAutomator] Moving to state 'starting'
+2019-01-17 10:19:42:215 [UiAutomator] Parsing uiautomator jar
+2019-01-17 10:19:42:216 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-01-17 10:19:42:216 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 push C\:\\Users\\windows\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-01-17 10:19:42:274 [ADB] Attempting to kill all uiautomator processes
+2019-01-17 10:19:42:275 [ADB] Getting all processes with uiautomator
+2019-01-17 10:19:42:276 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell ps'
+2019-01-17 10:19:42:606 [ADB] Attempting to kill process 27028
+2019-01-17 10:19:42:606 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell kill -0 27028'
+2019-01-17 10:19:42:712 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell kill 27028'
+2019-01-17 10:19:42:828 [UiAutomator] UiAutomator exited unexpectedly with code 0, signal null
+2019-01-17 10:19:42:829 [UiAutomator] Moving to state 'stopped'
+2019-01-17 10:19:42:854 [AndroidDriver] Shutting down Android driver
+2019-01-17 10:19:42:869 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell am force-stop com.Funimation.FunimationNow'
+2019-01-17 10:19:42:875 [Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
+2019-01-17 10:19:42:882 [Appium] Removing session e5647d1f-f39b-41c4-b466-5536cb0c8d92 from our master session list
+2019-01-17 10:19:43:121 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell kill 27028'
+2019-01-17 10:19:43:538 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell kill 27028'
+2019-01-17 10:19:43:983 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell kill 27028'
+2019-01-17 10:19:44:138 [ADB] Cannot kill process 27028 in 1000 ms. Trying to force kill...
+2019-01-17 10:19:44:139 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell kill -9 27028'
+2019-01-17 10:19:44:275 [UiAutomator] Starting UIAutomator
+2019-01-17 10:19:44:276 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","420038a5d34e3387","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.Funimation.FunimationNow","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-01-17 10:19:44:817 [ADB] Pressing the HOME button
+2019-01-17 10:19:44:817 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell input keyevent 3'
+2019-01-17 10:19:46:193 [UiAutomator] Moving to state 'online'
+2019-01-17 10:19:46:197 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-01-17 10:19:46:198 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell dumpsys window'
+2019-01-17 10:19:46:208 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2019-01-17 10:19:46:209 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-01-17 10:19:46:210 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-01-17 10:19:46:375 [AndroidDriver] Screen already unlocked, doing nothing
+2019-01-17 10:19:46:377 [ADB] Device API level: 23
+2019-01-17 10:19:46:378 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell am start -W -n com.Funimation.FunimationNow/com.funimation.ui.splash.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-01-17 10:19:46:823 [AndroidBootstrap] Cannot shut down Android bootstrap; it has already shut down
+2019-01-17 10:19:46:824 [Logcat] Stopping logcat capture
+2019-01-17 10:19:46:839 [ADB] Running 'C:\Users\windows\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420038a5d34e3387 shell am force-stop io.appium.unlock'
+2019-01-17 10:19:49:123 [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2019-01-17 10:19:53:027 [Appium] New AndroidDriver session created successfully, session a2e9faa6-4fe4-48fd-b82f-b53020cf73a5 added to master session list
+2019-01-17 10:19:53:027 [BaseDriver] Event 'newSessionStarted' logged at 1547720393027 (02:19:53 GMT-0800 (Pacific Standard Time))
+2019-01-17 10:19:53:028 [MJSONWP (a2e9faa6)] Cached the protocol value 'MJSONWP' for the new session a2e9faa6-4fe4-48fd-b82f-b53020cf73a5
+2019-01-17 10:19:53:029 [MJSONWP (a2e9faa6)] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"E:\\automation Frameworks\\cucumber-java-selenium\\Funimation_Automation\\src\\main\\java\\App\\FunimationNow.apk","appPackage":"com.Funimation.FunimationNow","appActivity":"com.funimation.ui.splash.SplashActivity","appium-version":"10.1","platformVersion":"6.0.1","browserName":"","autoGrantPermissions":true,"platformName":"Android","udid":"420038a5d34e3387","deviceName":"Galaxy On5"},"app":"E:\\automation Frameworks\\cucumber-java-selenium\\Funimation_Automation\\src\\main\\java\\App\\FunimationNow.apk","appPackage":"com.Funimation.FunimationNow","appActivity":"com.funimation.ui.splash.SplashActivity","appium-version":"10.1","platformVersion":"6.0.1","browserName":"","autoGrantPermissions":true,"platformName":"Android","udid":"420038a5d34e3387","deviceName":"420038a5d34e3387","deviceUDID":"420038...
+2019-01-17 10:19:53:031 [HTTP] <-- POST /wd/hub/session 200 38484 ms - 1192
+2019-01-17 10:19:53:032 [HTTP] 
+2019-01-17 10:20:13:453 [HTTP] --> POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/timeouts
+2019-01-17 10:20:13:454 [HTTP] {"type":"implicit","ms":0}
+2019-01-17 10:20:13:456 [MJSONWP (a2e9faa6)] Calling AppiumDriver.timeouts() with args: ["implicit",0,null,null,null,"a2e9faa6-4fe4-48fd-b82f-b53020cf73a5"]
+2019-01-17 10:20:13:460 [BaseDriver] MJSONWP timeout arguments: {"type":"implicit","ms":0}}
+2019-01-17 10:20:13:462 [BaseDriver] Set implicit wait to 0ms
+2019-01-17 10:20:13:463 [MJSONWP (a2e9faa6)] Responding to client with driver.timeouts() result: null
+2019-01-17 10:20:13:466 [HTTP] <-- POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/timeouts 200 12 ms - 76
+2019-01-17 10:20:13:467 [HTTP] 
+2019-01-17 10:20:13:483 [HTTP] --> GET /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/context
+2019-01-17 10:20:13:484 [HTTP] {}
+2019-01-17 10:20:13:516 [MJSONWP (a2e9faa6)] Calling AppiumDriver.getCurrentContext() with args: ["a2e9faa6-4fe4-48fd-b82f-b53020cf73a5"]
+2019-01-17 10:20:13:520 [MJSONWP (a2e9faa6)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2019-01-17 10:20:13:524 [HTTP] <-- GET /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/context 200 39 ms - 84
+2019-01-17 10:20:13:530 [HTTP] 
+2019-01-17 10:20:13:535 [HTTP] --> POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/elements
+2019-01-17 10:20:13:536 [HTTP] {"using":"id","value":"com.Funimation.FunimationNow:id/welcomeLoginButton"}
+2019-01-17 10:20:13:537 [MJSONWP (a2e9faa6)] Calling AppiumDriver.findElements() with args: ["id","com.Funimation.FunimationNow:id/welcomeLoginButton","a2e9faa6-4fe4-48fd-b82f-b53020cf73a5"]
+2019-01-17 10:20:13:541 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-01-17 10:20:13:543 [BaseDriver] Waiting up to 0 ms for condition
+2019-01-17 10:20:13:548 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.Funimation.FunimationNow:id/welcomeLoginButton","context":"","multiple":true}}
+2019-01-17 10:20:13:553 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.Funimation.FunimationNow:id/welcomeLoginButton","context":"","multiple":true}}
+2019-01-17 10:20:13:555 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-01-17 10:20:13:556 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-01-17 10:20:13:557 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.Funimation.FunimationNow:id/welcomeLoginButton' using 'ID' with the contextId: '' multiple: true
+2019-01-17 10:20:13:558 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.Funimation.FunimationNow:id/welcomeLoginButton]
+2019-01-17 10:20:13:559 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.Funimation.FunimationNow:id/welcomeLoginButton]
+2019-01-17 10:20:13:560 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-01-17 10:20:13:560 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.Funimation.FunimationNow:id/welcomeLoginButton]
+2019-01-17 10:20:13:566 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2019-01-17 10:20:13:567 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.Funimation.FunimationNow:id/welcomeLoginButton]
+2019-01-17 10:20:13:596 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"}]}
+2019-01-17 10:20:13:599 [AndroidBootstrap] Received command result from bootstrap
+2019-01-17 10:20:13:601 [MJSONWP (a2e9faa6)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"}]
+2019-01-17 10:20:13:605 [HTTP] <-- POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/elements 200 69 ms - 131
+2019-01-17 10:20:13:606 [HTTP] 
+2019-01-17 10:20:13:621 [HTTP] --> POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/timeouts
+2019-01-17 10:20:13:622 [HTTP] {"type":"implicit","ms":10000}
+2019-01-17 10:20:13:623 [MJSONWP (a2e9faa6)] Calling AppiumDriver.timeouts() with args: ["implicit",10000,null,null,null,"a2e9faa6-4fe4-48fd-b82f-b53020cf73a5"]
+2019-01-17 10:20:13:626 [BaseDriver] MJSONWP timeout arguments: {"type":"implicit","ms":10000}}
+2019-01-17 10:20:13:627 [BaseDriver] Set implicit wait to 10000ms
+2019-01-17 10:20:13:628 [MJSONWP (a2e9faa6)] Responding to client with driver.timeouts() result: null
+2019-01-17 10:20:13:632 [HTTP] <-- POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/timeouts 200 9 ms - 76
+2019-01-17 10:20:13:633 [HTTP] 
+2019-01-17 10:20:13:648 [HTTP] --> GET /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/element/1/text
+2019-01-17 10:20:13:649 [HTTP] {}
+2019-01-17 10:20:13:651 [MJSONWP (a2e9faa6)] Calling AppiumDriver.getText() with args: ["1","a2e9faa6-4fe4-48fd-b82f-b53020cf73a5"]
+2019-01-17 10:20:13:654 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"1"}}
+2019-01-17 10:20:13:658 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"1"}}
+2019-01-17 10:20:13:659 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-01-17 10:20:13:660 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2019-01-17 10:20:13:665 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"Log In"}
+2019-01-17 10:20:13:666 [AndroidBootstrap] Received command result from bootstrap
+2019-01-17 10:20:13:668 [MJSONWP (a2e9faa6)] Responding to client with driver.getText() result: "Log In"
+2019-01-17 10:20:13:670 [HTTP] <-- GET /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/element/1/text 200 22 ms - 80
+2019-01-17 10:20:13:671 [HTTP] 
+2019-01-17 10:20:13:698 [HTTP] --> POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/timeouts
+2019-01-17 10:20:13:699 [HTTP] {"type":"implicit","ms":0}
+2019-01-17 10:20:13:700 [MJSONWP (a2e9faa6)] Calling AppiumDriver.timeouts() with args: ["implicit",0,null,null,null,"a2e9faa6-4fe4-48fd-b82f-b53020cf73a5"]
+2019-01-17 10:20:13:703 [BaseDriver] MJSONWP timeout arguments: {"type":"implicit","ms":0}}
+2019-01-17 10:20:13:704 [BaseDriver] Set implicit wait to 0ms
+2019-01-17 10:20:13:706 [MJSONWP (a2e9faa6)] Responding to client with driver.timeouts() result: null
+2019-01-17 10:20:13:708 [HTTP] <-- POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/timeouts 200 10 ms - 76
+2019-01-17 10:20:13:709 [HTTP] 
+2019-01-17 10:20:13:718 [HTTP] --> GET /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/context
+2019-01-17 10:20:13:720 [HTTP] {}
+2019-01-17 10:20:13:721 [MJSONWP (a2e9faa6)] Calling AppiumDriver.getCurrentContext() with args: ["a2e9faa6-4fe4-48fd-b82f-b53020cf73a5"]
+2019-01-17 10:20:13:724 [MJSONWP (a2e9faa6)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2019-01-17 10:20:13:727 [HTTP] <-- GET /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/context 200 8 ms - 84
+2019-01-17 10:20:13:728 [HTTP] 
+2019-01-17 10:20:13:738 [HTTP] --> POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/elements
+2019-01-17 10:20:13:739 [HTTP] {"using":"id","value":"com.Funimation.FunimationNow:id/welcomeLoginButton"}
+2019-01-17 10:20:13:740 [MJSONWP (a2e9faa6)] Calling AppiumDriver.findElements() with args: ["id","com.Funimation.FunimationNow:id/welcomeLoginButton","a2e9faa6-4fe4-48fd-b82f-b53020cf73a5"]
+2019-01-17 10:20:13:743 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-01-17 10:20:13:744 [BaseDriver] Waiting up to 0 ms for condition
+2019-01-17 10:20:13:745 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.Funimation.FunimationNow:id/welcomeLoginButton","context":"","multiple":true}}
+2019-01-17 10:20:13:750 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.Funimation.FunimationNow:id/welcomeLoginButton","context":"","multiple":true}}
+2019-01-17 10:20:13:751 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-01-17 10:20:13:752 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-01-17 10:20:13:753 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.Funimation.FunimationNow:id/welcomeLoginButton' using 'ID' with the contextId: '' multiple: true
+2019-01-17 10:20:13:753 [AndroidBootstrap] [UIAUTO STDOUT] [APPIUM-UI
+2019-01-17 10:20:13:755 [AndroidBootstrap] [UIAUTO STDOUT] AUTO] [debug] Using: UiSelector[RESOURCE_ID=com.Funimation.FunimationNow:id/welcomeLoginButton][/APPIUM-UIAUTO]
+2019-01-17 10:20:13:755 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.Funimation.FunimationNow:id/welcomeLoginButton]
+2019-01-17 10:20:13:756 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-01-17 10:20:13:757 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.Funimation.FunimationNow:id/welcomeLoginButton]
+2019-01-17 10:20:13:759 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2019-01-17 10:20:13:761 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.Funimation.FunimationNow:id/welcomeLoginButton]
+2019-01-17 10:20:13:787 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"2"}]}
+2019-01-17 10:20:13:789 [AndroidBootstrap] Received command result from bootstrap
+2019-01-17 10:20:13:791 [MJSONWP (a2e9faa6)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"2","ELEMENT":"2"}]
+2019-01-17 10:20:13:794 [HTTP] <-- POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/elements 200 55 ms - 131
+2019-01-17 10:20:13:799 [HTTP] 
+2019-01-17 10:20:13:805 [HTTP] --> POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/timeouts
+2019-01-17 10:20:13:806 [HTTP] {"type":"implicit","ms":10000}
+2019-01-17 10:20:13:807 [MJSONWP (a2e9faa6)] Calling AppiumDriver.timeouts() with args: ["implicit",10000,null,null,null,"a2e9faa6-4fe4-48fd-b82f-b53020cf73a5"]
+2019-01-17 10:20:13:810 [BaseDriver] MJSONWP timeout arguments: {"type":"implicit","ms":10000}}
+2019-01-17 10:20:13:811 [BaseDriver] Set implicit wait to 10000ms
+2019-01-17 10:20:13:813 [MJSONWP (a2e9faa6)] Responding to client with driver.timeouts() result: null
+2019-01-17 10:20:13:815 [HTTP] <-- POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/timeouts 200 9 ms - 76
+2019-01-17 10:20:13:816 [HTTP] 
+2019-01-17 10:20:13:825 [HTTP] --> POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/element/2/click
+2019-01-17 10:20:13:826 [HTTP] {"id":"2"}
+2019-01-17 10:20:13:827 [MJSONWP (a2e9faa6)] Calling AppiumDriver.click() with args: ["2","a2e9faa6-4fe4-48fd-b82f-b53020cf73a5"]
+2019-01-17 10:20:13:831 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2019-01-17 10:20:13:835 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2019-01-17 10:20:13:836 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-01-17 10:20:13:837 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-01-17 10:20:14:229 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-01-17 10:20:14:230 [AndroidBootstrap] Received command result from bootstrap
+2019-01-17 10:20:14:232 [MJSONWP (a2e9faa6)] Responding to client with driver.click() result: true
+2019-01-17 10:20:14:233 [HTTP] <-- POST /wd/hub/session/a2e9faa6-4fe4-48fd-b82f-b53020cf73a5/element/2/click 200 408 ms - 76
+2019-01-17 10:20:14:234 [HTTP] 
+2019-01-17 10:20:14:283 [HTTP] --> POST /wd/hub/session
+2019-01-17 10:20:14:284 [HTTP] {"desiredCapabilities":{"app":"E:\\automation Frameworks\\cucumber-java-selenium\\Funimation_Automation\\src\\main\\java\\App\\FunimationNow.apk","appPackage":"com.Funimation.FunimationNow","appActivity":"com.funimation.ui.splash.SplashActivity","appium-version":"10.1","platformVersion":"6.0.1","browserName":"","autoGrantPermissions":"true","platformName":"Android","udid":"420038a5d34e3387","deviceName":"Galaxy On5"}}
+2019-01-17 10:20:14:285 [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"E:\\automation Frameworks\\cucumber-java-selenium\\Funimation_Automation\\src\\main\\java\\App\\FunimationNow.apk","appPackage":"com.Funimation.FunimationNow","appActivity":"com.funimation.ui.splash.SplashActivity","appium-version":"10.1","platformVersion":"6.0.1","browserName":"","autoGrantPermissions":"true","platformName":"Android","udid":"420038a5d34e3387","deviceName":"Galaxy On5"},null,null]
+2019-01-17 10:20:14:286 [BaseDriver] Event 'newSessionRequested' logged at 1547720414285 (02:20:14 GMT-0800 (Pacific Standard Time))
+2019-01-17 10:20:14:287 [Appium] Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-01-17 10:20:14:288 [Appium] Creating new AndroidDriver (v4.8.0) session
+2019-01-17 10:20:14:289 [Appium] Capabilities:
+2019-01-17 10:20:14:289 [Appium]   app: E:\automation Frameworks\cucumber-java-selenium\Funimation_Automation\src\main\java\App\FunimationNow.apk
+2019-01-17 10:20:14:290 [Appium]   appPackage: com.Funimation.FunimationNow
+2019-01-17 10:20:14:291 [Appium]   appActivity: com.funimation.ui.splash.SplashActivity
+2019-01-17 10:20:14:292 [Appium]   appium-version: 10.1
+2019-01-17 10:20:14:293 [Appium]   platformVersion: 6.0.1
+2019-01-17 10:20:14:293 [Appium]   browserName: 
+2019-01-17 10:20:14:294 [Appium]   autoGrantPermissions: true
+2019-01-17 10:20:14:295 [Appium]   platformName: Android
+2019-01-17 10:20:14:295 [Appium]   udid: 420038a5d34e3387
+2019-01-17 10:20:14:296 [Appium]   deviceName: Galaxy On5
+2019-01-17 10:20:14:301 [BaseDriver] Creating session with MJSONWP desired capabilities: {"app":"E:\\automation Fram...
+2019-01-17 10:20:14:302 [BaseDriver] Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
+2019-01-17 10:20:14:308 [BaseDriver] The following capabilities were provided, but are not recognized by appium: appium-version.
+2019-01-17 10:20:14:310 [BaseDriver] Session created with session id: c21b6122-d50a-4a24-ada9-08e60a98d1dc

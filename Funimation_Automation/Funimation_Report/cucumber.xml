@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="167.779828">
+<testcase classname="Verify the functionality of Funimation Application" name="Verify the User able to login Funimation Application with valid credentials" time="92.311807">
+<system-out><![CDATA[Given I launch the "Funimation App".........................................passed
+And I should see "Login" button.............................................passed
+Then I should click "Login" button".........................................passed
+And I should enter "Username"...............................................passed
+And I should enter "Password"...............................................passed
+And I click on "Login" button on "Login screen".............................passed
+And I click on "Menu" button on "Dashboard".................................passed
+And I click on "settings" link on Menu list.................................passed
+And I should verify "Your Mail" as "uatfuni+1548242372367@gmail.com"........passed
+And I click on "Menu" button on "Dashboard".................................passed
+Then I click on "Home" button on "Dashboard"................................passed
+And I should "Add" a show...................................................passed
+And I should logout the "Funimation App"....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify the failure scenario in funimation App" name="Verify the User able to login Funimation Application with valid credentials" time="75.468021">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[testfailure]@gmail.com&gt; but was:&lt;[uatfuni+1548242372367]@gmail.com&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at StepDefinitions.Steps.i_should_verify_as(Steps.java:87)&#13;&#10;&#9;at ✽.And I should verify &quot;Your Mail&quot; as &quot;testfailure@gmail.com&quot;(funimationTests.feature:14)&#13;&#10;"><![CDATA[Given I launch the "Funimation App".........................................passed
+And I should see "Login" button.............................................passed
+Then I should click "Login" button".........................................passed
+And I should enter "Username"...............................................passed
+And I should enter "Password"...............................................passed
+And I click on "Login" button on "Login screen".............................passed
+And I click on "Menu" button on "Dashboard".................................passed
+And I click on "settings" link on Menu list.................................passed
+And I should verify "Your Mail" as "testfailure@gmail.com"..................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[testfailure]@gmail.com> but was:<[uatfuni+1548242372367]@gmail.com>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StepDefinitions.Steps.i_should_verify_as(Steps.java:87)
+	at ✽.And I should verify "Your Mail" as "testfailure@gmail.com"(funimationTests.feature:14)
+]]></failure>
+</testcase>
+</testsuite>
